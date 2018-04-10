@@ -24,6 +24,11 @@ ModelImporter:
     100032: //RootNode
     100034: SurgicalTable_01
     100036: SurgicalTool_02
+    100038: cadnav_com_MeshPart0
+    100040: cadnav_com_MeshPart1
+    100042: cadnav_com_MeshPart2
+    100044: SurgicalTable_01_MeshPart0
+    100046: SurgicalTable_01_MeshPart1
     400000: body
     400002: body01
     400004: Box003
@@ -43,6 +48,11 @@ ModelImporter:
     400032: //RootNode
     400034: SurgicalTable_01
     400036: SurgicalTool_02
+    400038: cadnav_com_MeshPart0
+    400040: cadnav_com_MeshPart1
+    400042: cadnav_com_MeshPart2
+    400044: SurgicalTable_01_MeshPart0
+    400046: SurgicalTable_01_MeshPart1
     2100000: 04___Default
     2100002: lashes
     2100004: body
@@ -77,6 +87,11 @@ ModelImporter:
     2300030: Forceps_04
     2300032: SurgicalTable_01
     2300034: SurgicalTool_02
+    2300036: cadnav_com_MeshPart0
+    2300038: cadnav_com_MeshPart1
+    2300040: cadnav_com_MeshPart2
+    2300042: SurgicalTable_01_MeshPart0
+    2300044: SurgicalTable_01_MeshPart1
     3300000: body
     3300002: body01
     3300004: Box003
@@ -95,6 +110,11 @@ ModelImporter:
     3300030: Forceps_04
     3300032: SurgicalTable_01
     3300034: SurgicalTool_02
+    3300036: cadnav_com_MeshPart0
+    3300038: cadnav_com_MeshPart1
+    3300040: cadnav_com_MeshPart2
+    3300042: SurgicalTable_01_MeshPart0
+    3300044: SurgicalTable_01_MeshPart1
     4300000: body
     4300002: body01
     4300004: Box003
@@ -113,6 +133,11 @@ ModelImporter:
     4300030: Forceps_04
     4300032: SurgicalTable_01
     4300034: SurgicalTool_02
+    4300036: cadnav_com_MeshPart0
+    4300038: cadnav_com_MeshPart1
+    4300040: cadnav_com_MeshPart2
+    4300042: SurgicalTable_01_MeshPart0
+    4300044: SurgicalTable_01_MeshPart1
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -156,8 +181,6 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    preserveHierarchy: 0
-    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
