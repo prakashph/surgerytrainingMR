@@ -1,0 +1,195 @@
+fileFormatVersion: 2
+guid: 4f82c8bb83871ec419d7762bca57da75
+timeCreated: 1523287194
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: body
+    100002: body01
+    100004: Box003
+    100006: cadnav_com
+    100008: cadnav_com001
+    100010: cadnav_com002
+    100012: cadnav_com003
+    100014: cadnav_com004
+    100016: cadnav_com005
+    100018: cadnav_com006
+    100020: cadnav_com007
+    100022: cadnav_com008
+    100024: Cylinder001
+    100026: Forceps_01
+    100028: Forceps_02
+    100030: Forceps_04
+    100032: //RootNode
+    100034: SurgicalTable_01
+    100036: SurgicalTool_02
+    400000: body
+    400002: body01
+    400004: Box003
+    400006: cadnav_com
+    400008: cadnav_com001
+    400010: cadnav_com002
+    400012: cadnav_com003
+    400014: cadnav_com004
+    400016: cadnav_com005
+    400018: cadnav_com006
+    400020: cadnav_com007
+    400022: cadnav_com008
+    400024: Cylinder001
+    400026: Forceps_01
+    400028: Forceps_02
+    400030: Forceps_04
+    400032: //RootNode
+    400034: SurgicalTable_01
+    400036: SurgicalTool_02
+    2100000: 04___Default
+    2100002: lashes
+    2100004: body
+    2100006: wire_115115115
+    2100008: chrome
+    2100010: wheel
+    2100012: rubber
+    2100014: chorme
+    2100016: blade
+    2100018: bandage
+    2100020: bandage_siedes
+    2100022: handle
+    2100024: teeth
+    2100026: table
+    2100028: paint
+    2100030: plastic
+    2300000: body
+    2300002: body01
+    2300004: Box003
+    2300006: cadnav_com
+    2300008: cadnav_com001
+    2300010: cadnav_com002
+    2300012: cadnav_com003
+    2300014: cadnav_com004
+    2300016: cadnav_com005
+    2300018: cadnav_com006
+    2300020: cadnav_com007
+    2300022: cadnav_com008
+    2300024: Cylinder001
+    2300026: Forceps_01
+    2300028: Forceps_02
+    2300030: Forceps_04
+    2300032: SurgicalTable_01
+    2300034: SurgicalTool_02
+    3300000: body
+    3300002: body01
+    3300004: Box003
+    3300006: cadnav_com
+    3300008: cadnav_com001
+    3300010: cadnav_com002
+    3300012: cadnav_com003
+    3300014: cadnav_com004
+    3300016: cadnav_com005
+    3300018: cadnav_com006
+    3300020: cadnav_com007
+    3300022: cadnav_com008
+    3300024: Cylinder001
+    3300026: Forceps_01
+    3300028: Forceps_02
+    3300030: Forceps_04
+    3300032: SurgicalTable_01
+    3300034: SurgicalTool_02
+    4300000: body
+    4300002: body01
+    4300004: Box003
+    4300006: cadnav_com
+    4300008: cadnav_com001
+    4300010: cadnav_com002
+    4300012: cadnav_com003
+    4300014: cadnav_com004
+    4300016: cadnav_com005
+    4300018: cadnav_com006
+    4300020: cadnav_com007
+    4300022: cadnav_com008
+    4300024: Cylinder001
+    4300026: Forceps_01
+    4300028: Forceps_02
+    4300030: Forceps_04
+    4300032: SurgicalTable_01
+    4300034: SurgicalTool_02
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
