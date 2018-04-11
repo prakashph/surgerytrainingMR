@@ -1110,6 +1110,7 @@ GameObject:
   - component: {fileID: 1071919699}
   - component: {fileID: 1071919698}
   - component: {fileID: 1071919703}
+  - component: {fileID: 1071919702}
   - component: {fileID: 1071919701}
   - component: {fileID: 1071919700}
   - component: {fileID: 1071919704}
@@ -1206,6 +1207,17 @@ MonoBehaviour:
   colorOnGrabMulti: {r: 1, g: 0, b: 0, a: 1}
   targetRenderer: {fileID: 0}
   grabbable: {fileID: 0}
+--- !u!114 &1071919702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1071919696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b910c6e22b8246f4ab7f737b355a0947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!54 &1071919703
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1445,7 +1457,7 @@ GameObject:
   - component: {fileID: 1372906554}
   m_Layer: 0
   m_Name: scissor_forceps
-  m_TagString: Untagged
+  m_TagString: sticky
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

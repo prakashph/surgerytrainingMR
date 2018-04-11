@@ -15,6 +15,12 @@ namespace HoloToolkit.Unity.InputModule.Examples.Grabbables
         {
             base.StartGrab(grabber);
 
+            if(this.gameObject.tag == "sticky")
+            {
+                SendMessage("Disconnecting");
+                Destroy(GetComponent<FixedJoint>());
+            }
+
             transform.SetParent(GrabberPrimary.transform);
             gameObject.GetComponent<Rigidbody>().isKinematic = true;
         }
