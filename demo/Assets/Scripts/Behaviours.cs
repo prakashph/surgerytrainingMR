@@ -7,6 +7,7 @@ public class Behaviours : MonoBehaviour
 
     public static Behaviours instance;
     // the following variables are references to possible targets
+    public TextMesh dictationTextMesh;
     [HideInInspector]
     public GameObject gazedTarget;
     [HideInInspector]
@@ -63,9 +64,12 @@ public class Behaviours : MonoBehaviour
 
     void ResetTooltip()
     {
-        Tooltip tooltip = previousGazedTarget?.GetComponent(typeof(Tooltip)) as Tooltip;
-        if (tooltip != null)
-            tooltip.HideTooltip();
+        if (previousGazedTarget != null)
+        {
+            Tooltip tooltip = previousGazedTarget.GetComponent(typeof(Tooltip)) as Tooltip;
+            if (tooltip != null)
+                tooltip.HideTooltip();
+        }
     }
 
     /*
@@ -128,5 +132,20 @@ public class Behaviours : MonoBehaviour
                 break;
         }
         return targetAsGO;
+    }
+
+    public void ToolReady(string toolName)
+    {
+        switch (toolName)
+        {
+            case "needle":
+                dictationTextMesh.text = "needle is ready!";
+                dictationTextMesh.color = Color.green;
+                break;
+            default:
+                dictationTextMesh.text = toolName + " is ready!";
+                dictationTextMesh.color = Color.red;
+                break;
+        }
     }
 }

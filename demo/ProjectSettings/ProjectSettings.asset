@@ -564,7 +564,7 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: demo
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: C:\Users\MRUser\Documents\GitHub\surgerytrainingMR\demo\Assets\WSATestCertificate.pfx
+  metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
   metroCertificateSubject: DefaultCompany
   metroCertificateIssuer: DefaultCompany
