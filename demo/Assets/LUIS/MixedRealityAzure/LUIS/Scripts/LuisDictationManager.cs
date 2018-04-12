@@ -297,7 +297,7 @@ namespace Microsoft.MR.LUIS
         {
             dictationResult = error + "\nHRESULT: " + hresult.ToString();
 
-            textSoFar.Clear();
+            textSoFar?.Clear();
             dictationResult = string.Empty;
 
             if (debugOutput != null)
