@@ -957,6 +957,7 @@ GameObject:
   - component: {fileID: 740541730}
   - component: {fileID: 740541729}
   - component: {fileID: 740541728}
+  - component: {fileID: 740541732}
   m_Layer: 0
   m_Name: LUIS
   m_TagString: Untagged
@@ -976,8 +977,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoSilenceTimeout: 20
-  autoStartListening: 1
-  continuousRecognition: 1
+  autoStartListening: 0
+  continuousRecognition: 0
   debugOutput: {fileID: 2099950549}
   initialSilenceTimeout: 10
   luisManager: {fileID: 740541729}
@@ -1026,6 +1027,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &740541732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 740541727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59161ced3d0e3494e989a291166e6d3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  element: 6
+  handedness: 2
+  SetChildrenInactiveWhenDetached: 1
+  PositionOffset: {x: 0, y: 0, z: 0}
+  RotationOffset: {x: 0, y: 0, z: 0}
+  ScaleOffset: {x: 1, y: 1, z: 1}
+  SetScaleOnAttach: 0
+  manager: {fileID: 740541728}
 --- !u!1 &909594979
 GameObject:
   m_ObjectHideFlags: 0
